@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cc {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 20px;
+}
+#cc::before {
+  content: "Colour Code: ";
+}
+button {
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: skyblue;
+  border: none;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+button:hover {
+  padding: 20px;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+  background-color: red;
+}
